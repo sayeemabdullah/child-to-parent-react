@@ -6,7 +6,7 @@ function Child(props) {
   const [childId] = useState(29);
   return (
     <>
-      <button onClick={() => props.sendID(childId)}>Send Child ID</button>
+      <button onClick={() => props.sendID(childId)}>Get Child ID</button>
     </>
   );
 }
