@@ -1,6 +1,5 @@
 import React, { useState, useContext } from "react";
 import Child from "./Child";
-import ChildContext from "./Child";
 
 function Parent() {
   const [childsId, setChildsId] = useState(0);

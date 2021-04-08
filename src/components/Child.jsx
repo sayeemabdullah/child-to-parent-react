@@ -3,11 +3,10 @@ import React, { useState } from "react";
 export const ChildContext = React.createContext();
 
 function Child(props) {
-  //   const [childId, setChildId] = useState(29);
-
+  const [childId] = useState(29);
   return (
     <>
-      <button onClick={() => props.sendID(29)}>Send Child ID</button>
+      <button onClick={() => props.sendID(childId)}>Send Child ID</button>
     </>
   );
 }
